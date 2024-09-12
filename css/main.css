@@ -1,3 +1,16 @@
+
+/* Bold and Professional (Teal, Dark Gray, and White)
+Primary Colors: Teal (#008080), Dark Gray (#4A4A4A)
+Accent: Yellow (#FFD700) or Light Green (#32CD32)
+Why: Teal is a unique and professional choice, and a bright accent helps highlight key areas. */
+
+
+:root {
+    --primary-color: #008080;
+    --background-color: #008080;
+    --accent-color: #32CD32
+}
+
 .fa,
 .fa-stack {
     display: inline-block
@@ -17,40 +30,7 @@
     list-style: none
 }
 
-@font-face {
-    font-family: Roboto;
-    font-style: italic;
-    font-weight: 300;
-    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOjCnqEu92Fr1Mu51TjASc6CsE.ttf) format('truetype')
-}
 
-@font-face {
-    font-family: Roboto;
-    font-style: italic;
-    font-weight: 500;
-    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOjCnqEu92Fr1Mu51S7ACc6CsE.ttf) format('truetype')
-}
-
-@font-face {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 300;
-    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fBBc9.ttf) format('truetype')
-}
-
-@font-face {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype')
-}
-
-@font-face {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fBBc9.ttf) format('truetype')
-}
 
 /*!
  *  Font Awesome 4.2.0 by @davegandy - http://fontawesome.io - @fontawesome
@@ -2716,7 +2696,7 @@ table {
 }
 
 body {
-    font: 16px/1.6 Roboto, Helvetica, sans-serif;
+    font: 16px/1.6 Poppins, Helvetica, sans-serif;
     font-weight: 300
 }
 
@@ -2749,7 +2729,7 @@ h4 {
 
 .red,
 a {
-    color: #BB1E1E
+    color: var(--primary-color)
 }
 
 h1 {
@@ -2999,7 +2979,8 @@ body {
     font-size: 14px;
     color: #fff;
     text-align: left;
-    background-color: rgba(145, 13, 13, .8)
+    background-color: var(--background-color)
+    /* background-color: rgba(145, 13, 13, .8) */
 }
 
 @media screen and (max-width:1000px) {
@@ -3782,7 +3763,7 @@ html:not(.platform-mac) .site-sidebar .block-blog {
 }
 
 .portfolio-timeline__project-link:hover {
-    color: #BB1E1E
+    color: var(--primary-color)
 }
 
 .portfolio-timeline__project-text {
@@ -3953,7 +3934,7 @@ html:not(.platform-mac) .site-sidebar .block-blog {
 }
 
 .feature {
-    color: #BB1E1E;
+    color: var(--primary-color);
     font-weight: 300;
     text-align: center;
     padding: 0 10px
@@ -3986,7 +3967,7 @@ html:not(.platform-mac) .site-sidebar .block-blog {
     font-size: 36px;
     line-height: 1;
     margin-bottom: 10px;
-    color: #BB1E1E;
+    color: var(--primary-color);
     text-transform: none
 }
 
@@ -4016,7 +3997,7 @@ html:not(.platform-mac) .site-sidebar .block-blog {
 }
 
 .post .comment-link {
-    color: #BB1E1E
+    color: var(--primary-color)
 }
 
 .timeline.talks-timeline .talk-title {
@@ -4040,7 +4021,7 @@ html:not(.platform-mac) .site-sidebar .block-blog {
 }
 
 body.cv {
-    font-family: Roboto, Helvetica, sans-serif;
+    font-family: Poppins, Helvetica, sans-serif;
     color: #000;
     background-color: #c1c1c1;
     font-size: 16px;
@@ -4134,7 +4115,7 @@ body.cv {
     font-size: 30px;
     line-height: 1;
     margin-bottom: 5px;
-    color: #BB1E1E
+    color: var(--primary-color)
 }
 
 .cv-header-subname {
@@ -4198,7 +4179,7 @@ body.cv {
 }
 
 .cv-section-title {
-    color: #BB1E1E;
+    color: var(--primary-color);
     font-size: 24px;
     font-weight: 300;
     padding-left: 21.5%;
