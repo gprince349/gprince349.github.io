@@ -3512,7 +3512,8 @@ html:not(.platform-mac) .site-sidebar .block-blog {
     left: 0;
     right: 0;
     z-index: 1;
-    background: url(../images/home-bg3.ef171b05.jpg) top center no-repeat #ffffff;
+    background: #ffffff;
+    /* background: url(../images/home-bg3.ef171b05.jpg) top center no-repeat #ffffff; */
     background-size: cover;
     color: #555;
     padding-left: 110px;
