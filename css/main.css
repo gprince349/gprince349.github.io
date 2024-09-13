@@ -8,7 +8,7 @@ Why: Teal is a unique and professional choice, and a bright accent helps highlig
 :root {
     --primary-color: #008080;
     --background-color: #008080;
-    --accent-color: #32CD32
+    --accent-color: #008080;
 }
 
 .fa,
@@ -2931,8 +2931,8 @@ blockquote {
 }
 
 .button.button-red {
-    background-color: #AF2222;
-    border: 1px solid #9a1e1e;
+    background-color: var(--accent-color);
+    border: 1px solid var(--accent-color);
     color: #fff;
     padding: .7em 1.2em;
     font-weight: 400
@@ -3266,7 +3266,7 @@ html:not(.platform-mac) .site-sidebar .block-blog {
     content: " ";
     display: block;
     width: 25%;
-    background: url(../images/home-bg3.ef171b05.jpg) top center no-repeat #bababa;
+    background: url(../images/home-bg3.ef171b05.jpg) top center no-repeat #ffffff;
     background-size: cover
 }
 
@@ -3512,12 +3512,12 @@ html:not(.platform-mac) .site-sidebar .block-blog {
     left: 0;
     right: 0;
     z-index: 1;
-    background: url(../images/home-bg3.ef171b05.jpg) top center no-repeat #bababa;
+    background: url(../images/home-bg3.ef171b05.jpg) top center no-repeat #ffffff;
     background-size: cover;
-    color: #fff;
+    color: #555;
     padding-left: 110px;
     padding-top: 130px;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, .6);
+    /* text-shadow: 1px 1px 2px rgba(0, 0, 0, .6); */
     font-size: 12px
 }
 
