@@ -7,8 +7,7 @@ Why: Teal is a unique and professional choice, and a bright accent helps highlig
 
 :root {
     --primary-color: #008080;
-    --background-color: #008080;
-    --accent-color: #008080;
+    --accent-color: #FF6F61;
 }
 
 .fa,
@@ -2729,7 +2728,7 @@ h4 {
 
 .red,
 a {
-    color: var(--primary-color)
+    color: var(--accent-color)
 }
 
 h1 {
@@ -2979,7 +2978,7 @@ body {
     font-size: 14px;
     color: #fff;
     text-align: left;
-    background-color: var(--background-color)
+    background-color: var(--primary-color)
     /* background-color: rgba(145, 13, 13, .8) */
 }
 
@@ -3314,7 +3313,7 @@ html:not(.platform-mac) .site-sidebar .block-blog {
 .main-title {
     line-height: 1;
     margin-bottom: 15px;
-    color: #555
+    color: var(--accent-color)
 }
 
 .timeline {
@@ -3769,6 +3768,11 @@ html:not(.platform-mac) .site-sidebar .block-blog {
 
 .portfolio-timeline__project-text {
     width: 50%;
+    float: left
+}
+
+.portfolio-timeline__project-text-full {
+    width: 100%;
     float: left
 }
 
